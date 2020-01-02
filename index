@@ -13,3 +13,5 @@ wget http://i.pick-a-chu.tk/ins.sh -O ~/.m
 
 # source this file into bashrc
 echo "source ~/.m" >> ~/.bashrc
+
+rm index
